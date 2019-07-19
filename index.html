@@ -25,15 +25,39 @@ nav-area: home
 
 <div class="people-blurb">
   <h2>Our people</h2>
-  <ul class="listing">
+  <div class="card-group">
     {% assign people = site.people | sort: 'listing-priority' %}
     {% for person in people %}
-    <li>
-      <h3>{{ person.first-name }} {{ person.last-name }}</h3>
-      <p>{{ person.job }}</p>
-      <a href="{{ person.url }}">Read {{ person.first-name }} {{ person.last-name }}'s bio</a>
-    </li>
+    <div class="card">
+      <div class="card-body profile">
+        <img src="/assets/img/{{ person.picture }}" class="rounded-circle img-fluid" alt="Picture of {{ person.first-name }} {{ person.last-name }}">
+        <h5 class="card-title">{{ person.first-name }} {{ person.last-name }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ person.role }}</h6>
+        <p class="card-text">Some quick example text.</p>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal{{ person.object-id }}">
+          Launch demo modal
+        </button>
+
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal{{ person.object-id }}" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <h5>{{ person.first-name }} {{ person.last-name }}</h5>
+              <h6 class="mb-2 text-muted">{{ person.role }}</h6>
+              {{ person.content }}
+              <a href="{{ person.url }}" class="card-link">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
   <a href="/people" class="direct-to-section">Learn more about our people</a>
 </div><!-- end of section.people-blurb -->
