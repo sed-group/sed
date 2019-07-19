@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://visp.app" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 # Build settings
 markdown: kramdown
 
@@ -28,13 +27,23 @@ plugins:
   - jekyll-feed
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "post"
+  - scope:
+      type: projects
     values:
-      layout: "post"
-      author: "inigoalonso"
+      layout: project
+  - scope:
+      type: people
+    values:
+      layout: person
+
+permalink: pretty
+
+collections:
+  people:
+    output: true
+  projects:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
