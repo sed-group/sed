@@ -153,63 +153,6 @@ li {
   clear: both;
 }
 
-[role="banner"] {
-  border-bottom: 1px solid #cccccc;
-  padding: 1em 0;
-}
-
-[role="banner"] h1 {
-  font-size: 1.625em;
-  color: #0074D9;
-  margin-bottom: 0;
-  float: left;
-}
-
-[role="banner"] .nav-primary {
-  float: right;
-}
-
-[role="banner"] .nav-primary ul {
-  margin: 0;
-}
-
-[role="banner"] .nav-primary li {
-  display: inline-block;
-  margin-left: 1em;
-  line-height: 2em;
-}
-
-[role="main"] {
-  padding: 2em 0;
-}
-
-[role="main"] h1 {
-  font-size: 2.625em;
-}
-
-[role="main"] h2 {
-  font-size: 2.3125em;
-}
-
-[role="main"] h3 {
-  font-size: 1.625em;
-}
-
-[role="main"] h4 {
-  font-size: 1.4375em;
-}
-
-[role="main"] h5 {
-  font-size: 1em;
-}
-
-[role="main"] h6 {
-  font-size: 0.875em;
-  color: #9d9d9d;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 [role="main"] .listing {
   margin: 0;
   list-style-type: none;
