@@ -1,74 +1,12 @@
 /* ============================================================================================== */
 /* Global Styles                                                                                  */
 /* ============================================================================================== */
-.container {
-  margin: 0 auto;
-  padding: 0 1em;
-  width: 100%;
-  max-width: 1000px;
-  position: relative;
-  zoom: 1;
-}
 
-.container:before,
-.container:after {
-  content: "";
-  display: table;
-}
-
-.container:after {
-  clear: both;
-}
-
-[role="main"] .listing {
-  margin: 0;
-  list-style-type: none;
-}
-
-[role="main"] .listing p:last-of-type {
-  margin-bottom: 0;
-}
-
-[role="main"] .listing li {
-  margin-bottom: 1.5em;
-}
-
-[role="main"] .direct-to-section {
-  font-size: 1.4375em;
-}
-
-[role="main"] .intro {
-  padding-top: 4em;
-  padding-bottom: 4em;
-  border-bottom: 1px solid #5e5e5e;
-  margin-bottom: 3em;
-}
-
-.container>div {
-  padding-top: 4em;
-  padding-bottom: 4em;
-  border-bottom: 1px solid #5e5e5e;
-}
-
-section:last-child {
-  border-bottom: none;
-}
-
-[role="contentinfo"] {
-  border-top: 1px solid #cccccc;
-}
-
-[role="contentinfo"] p {
-  margin: 0.5em 0;
-}
-
-main>.container {
-  padding: 60px 15px 0;
-}
 
 .footer img {
   max-width: 200px;
   width: 100%;
+  padding: 20px;
 }
 
 .footer {
@@ -92,5 +30,7 @@ nav {
 
 .profile img{
   max-width: 170px;
+  max-height: 170px;
   width: 100%;
+  object-fit: cover;
 }
