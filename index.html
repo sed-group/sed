@@ -30,7 +30,9 @@ nav-area: home
         alt="Picture of {{ person.name }}">
         <p class="lead">{{ person.name }}</p>
     </button>
-    <!-- Modal -->
+    {% endfor %}
+    {% for person in people %}
+    <!-- Modals -->
     <div class="modal fade" id="modal{{ person.object-id }}" tabindex="-1" role="dialog"
       aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -52,5 +54,6 @@ nav-area: home
       </div>
     </div>
     {% endfor %}
+
   </div>
 </div><!-- end of section.people-blurb -->
