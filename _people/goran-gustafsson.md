@@ -2,7 +2,7 @@
 object-id: goran-gustafsson
 cid: gorang
 name: Göran Gustafsson
-role: Senior Lecturer at
+role: Senior Lecturer
 picture: goran-gustafsson.jpg
 ---
 

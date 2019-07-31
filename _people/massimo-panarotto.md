@@ -2,7 +2,7 @@
 object-id: massimo-panarotto
 cid: maspan
 name: Massimo Panarotto
-role: Researcher at
+role: Researcher
 picture: massimo-panarotto.jpg
 ---
 

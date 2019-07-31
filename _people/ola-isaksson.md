@@ -2,7 +2,7 @@
 object-id: ola-isaksson
 cid: iola
 name: Ola Isaksson
-role: Full Professor at
+role: Full Professor
 picture: ola-isaksson.jpg
 ---
 

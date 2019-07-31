@@ -2,7 +2,7 @@
 object-id: mats-alemyr
 cid: malemyr
 name: Mats Alemyr
-role: Lecturer at
+role: Lecturer
 picture: mats-alemyr.jpg
 ---
 

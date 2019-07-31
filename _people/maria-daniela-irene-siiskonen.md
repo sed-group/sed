@@ -2,7 +2,7 @@
 object-id: maria-daniela-irene-siiskonen
 cid: simaria
 name: Maria Daniela Irene Siiskonen
-role: Doctoral Student at
+role: Doctoral Student
 picture: maria-daniela-irene-siiskonen.jpg
 ---
 

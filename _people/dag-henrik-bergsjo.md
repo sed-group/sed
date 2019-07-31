@@ -2,7 +2,7 @@
 object-id: dag-henrik-bergsjo
 cid: dagb
 name: Dag Henrik Bergsjö
-role: Associate Professor at
+role: Associate Professor
 picture: dag-henrik-bergsjo.jpg
 ---
 

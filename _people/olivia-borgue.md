@@ -2,7 +2,7 @@
 object-id: olivia-borgue
 cid: borgue
 name: Olivia Borgue
-role: Doctoral Student at
+role: Doctoral Student
 picture: olivia-borgue.jpg
 ---
 

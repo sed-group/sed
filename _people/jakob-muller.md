@@ -2,7 +2,7 @@
 object-id: jakob-muller
 cid: mujakob
 name: Jakob Müller
-role: Doctoral Student at
+role: Doctoral Student
 picture: jakob-muller.jpg
 ---
 

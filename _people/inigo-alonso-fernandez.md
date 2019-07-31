@@ -2,7 +2,7 @@
 object-id: inigo-alonso-fernandez
 cid: inigoa
 name: Iñigo Alonso Fernandez
-role: Doctoral Student at
+role: Doctoral Student
 picture: inigo-alonso-fernandez.jpg
 ---
 

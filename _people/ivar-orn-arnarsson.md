@@ -2,7 +2,7 @@
 object-id: ivar-orn-arnarsson
 cid: varo
 name: Ívar Örn Arnarsson
-role: Doktorand at
+role: Doktorand
 picture: ivar-orn-arnarsson.jpg
 ---
 

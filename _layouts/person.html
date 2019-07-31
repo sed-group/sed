@@ -3,11 +3,11 @@ layout: default
 ---
 
 <header class="intro person-header">
-  <h1>{{ page.first-name }} {{ page.last-name }}</h1>
-  <h2>{{ page.job }}</h2>
+  <h1>{{ page.name }}</h1>
+  <h2>{{ page.role }}</h2>
 </header>
 
 <div class="person-body">
   {{ page.content }}
-  <a href="{{ page.wikipedia-url }}">Read more about {{ page.first-name }} {{ page.last-name }} on the Chalmers profile.</a>
+  <a href="https://research.chalmers.se/en/person/{{ page.cid }}">More information about the publications and projects of {{ page.name }} at the Chalmers Research profile website.</a>
 </div>

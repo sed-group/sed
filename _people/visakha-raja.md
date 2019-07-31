@@ -2,7 +2,7 @@
 object-id: visakha-raja
 cid: visakha
 name: Visakha Raja
-role: Doktorand at
+role: Doktorand
 picture: visakha-raja.jpg
 ---
 

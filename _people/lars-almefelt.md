@@ -2,7 +2,7 @@
 object-id: lars-almefelt
 cid: alme
 name: Lars Almefelt
-role: Senior Lecturer at
+role: Senior Lecturer
 picture: lars-almefelt.jpg
 ---
 

@@ -2,7 +2,7 @@
 object-id: johan-malmqvist
 cid: joma
 name: Johan Malmqvist
-role: Full Professor at
+role: Full Professor
 picture: johan-malmqvist.jpg
 ---
 

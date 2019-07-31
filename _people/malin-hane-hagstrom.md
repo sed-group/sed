@@ -2,7 +2,7 @@
 object-id: malin-hane-hagstrom
 cid: hanem
 name: Malin Hane Hagström
-role: Doktorand at
+role: Doktorand
 picture: malin-hane-hagstrom.jpg
 ---
 

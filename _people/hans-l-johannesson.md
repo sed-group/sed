@@ -2,7 +2,7 @@
 object-id: hans-l-johannesson
 cid: hansj
 name: Hans L Johannesson
-role: Full Professor at
+role: Full Professor
 picture: hans-l-johannesson.jpg
 ---
 

@@ -2,7 +2,7 @@
 object-id: daniel-stenholm
 cid: dansten
 name: Daniel Stenholm
-role: Projektassistent at
+role: Projektassistent
 picture: daniel-stenholm.jpg
 ---
 

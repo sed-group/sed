@@ -2,7 +2,7 @@
 object-id: amer-catic
 cid: acatic
 name: Amer Catic
-role: Researcher at
+role: Researcher
 picture: amer-catic.jpg
 ---
 
