@@ -5,7 +5,6 @@ title: People
 
 <header class="intro">
   <h1>People</h1>
-  <p>Lorem ipsum dolor sit amet...</p>
 </header>
 
 <div class="people-body">
@@ -13,8 +12,7 @@ title: People
     {% assign people = site.people | sort: 'listing-priority' %}
     {% for person in people %}
     <li>
-      <h2><a href="{{ person.url }}">{{ person.name }}</a></h2>
-      <p>{{ person.job }}</p>
+      <p><a href="{{ person.url }}">{{ person.name }}</a> - {{ person.role }}</p>
     </li>
     {% endfor %}
   </ul>
