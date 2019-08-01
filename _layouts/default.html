@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -62,7 +64,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
 
+  <script type="text/javascript">
+$('.autoplay').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  infinite: true,
+});
+  </script>
 </body>
 
 </html>
