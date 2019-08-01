@@ -17,18 +17,19 @@ nav-area: home
     {% endfor %}
   </ul>
   <a href="/projects" class="direct-to-section">Learn about more of our projects</a>
-</div>--><!-- end of div.projects-blurb -->
+</div>-->
+<!-- end of div.projects-blurb -->
 
 
 <div class="people-blurb">
-  <div class="card-group profile text-center">
+  <div class="card-group profile">
     {% assign people = site.people %}
     {% for person in people %}
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal{{ person.object-id }}">
-      <img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid"
+      <img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid text-center"
         alt="Picture of {{ person.name }}">
-        <p class="lead">{{ person.name }}</p>
+      <p class="lead text-center">{{ person.name }}</p>
     </button>
     {% endfor %}
     {% for person in people %}
@@ -38,15 +39,15 @@ nav-area: home
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid"
-              alt="Picture of {{ person.name }}">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h5>{{ person.name }}</h5>
-            <h6 class="mb-2 text-muted">{{ person.role }}</h6>
-            {{ person.content }}
-            <a href="{{ person.url }}" class="card-link">More</a>
+            <p class="text-center"><img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid"
+                alt="Picture of {{ person.name }}"></p>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h5 class="text-center">{{ person.name }}</h5>
+            <h6 class="mb-2 text-muted text-center">{{ person.role }}</h6>
+            <p class="text-left">{{ person.content }}</p>
+            <a href="{{ person.url }}" class="card-link text-center">More info</a><br>
             <div id="map_canvas">
-              <iframe id="ctl00_PlaceHolderMain_TextFieldDisplay4_iframeMap" width="100%" height="414px"
+              <iframe id="ctl00_PlaceHolderMain_TextFieldDisplay4_iframeMap" width="100%" height="414px" frameBorder="0"
                 src="https://maps.portal.chalmers.se/people#{{ person.cid }}"></iframe>
             </div>
           </div>
