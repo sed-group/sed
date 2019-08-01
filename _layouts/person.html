@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<img src="/assets/img/people/{{ page.picture }}" class="rounded-circle img-fluid" alt="Picture of {{ page.name }}">
 
 <header class="intro person-header">
   <h1>{{ page.name }}</h1>
@@ -9,5 +10,21 @@ layout: default
 
 <div class="person-body">
   {{ page.content }}
-  <a href="https://research.chalmers.se/en/person/{{ page.cid }}">More information about the publications and projects of {{ page.name }} at the Chalmers Research profile website.</a>
+  <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal{{ page.object-id }}">
+    <p class="lead">More information about the publications and projects of {{ page.name }}</p>
+  </button>
+
+</div>
+
+<div class="modal fade" id="modal{{ page.object-id }}" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-body container-fluid">
+        <iframe id="ctl00_PlaceHolderMain_TextFieldDisplay4_iframeMap" width="1106px" height="900px"
+          src="https://research.chalmers.se/en/person/{{ page.cid }}"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
