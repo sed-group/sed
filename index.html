@@ -29,7 +29,7 @@ nav-area: home
     <!-- Button trigger modal -->
     <div class="col-md-3">
       <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal{{ person.object-id }}">
-        <img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid text-center"
+        <img src="{{ site.baseurl }}/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid text-center"
           alt="Picture of {{ person.name }}">
         <p class="lead text-center">{{ person.name }}</p>
       </button>
@@ -45,7 +45,7 @@ nav-area: home
         <div class="modal-content">
           <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <p class="text-center"><img src="/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid"
+            <p class="text-center"><img src="{{ site.baseurl }}/assets/img/people/{{ person.picture }}" class="rounded-circle img-fluid"
                 alt="Picture of {{ person.name }}"></p>
             <h5 class="text-center">{{ person.name }}</h5>
             <h6 class="mb-2 text-muted text-center">{{ person.role }}</h6>
