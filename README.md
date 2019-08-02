@@ -1,3 +1,3 @@
-visp
+Systems Engineering Design (SED) group
 ==========
-testing
+This repository holds the pages displayed at the screen in the shared room at M-huset.
