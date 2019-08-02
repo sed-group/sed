@@ -67,7 +67,7 @@ layout: default
     }
     if (seconds < 0) {
       // Redirection link here
-      window.location = "{{ site.url }}";
+      window.location = "{{ site.baseurl }}";
     } else {
       // Update remaining seconds
       document.getElementById("countdown").innerHTML = seconds;
