@@ -17,7 +17,7 @@ title: SED
 #email: inigoa@chalmers.se
 description: >- # this means to ignore newlines until "baseurl:"
   Systems Engineering Design group at Chalmers Technical University
-baseurl: "/sed" # the subpath of your site, e.g. /blog
+baseurl: /sed # the subpath of your site, e.g. /blog
 url: "https://inigoalonso.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
