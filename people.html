@@ -12,7 +12,7 @@ title: People
     {% assign people = site.people | sort: 'listing-priority' %}
     {% for person in people %}
     <li>
-      <p><a href="{{ person.url }}">{{ person.name }}</a> - {{ person.role }}</p>
+      <p><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}</a> - {{ person.role }}</p>
     </li>
     {% endfor %}
   </ul>
